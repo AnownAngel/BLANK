@@ -1,0 +1,159 @@
+nav {
+
+    font-size: 14px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  li{
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-brand{
+    font-size: 20px;
+    opacity: 0.9;
+    color: #ff8b00 !important;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: white !important;
+  }
+  
+  
+  .active-link{
+    color:greenyellow !important;
+  } 
+  
+  
+  button {
+    /*background-color: #4CAF50;*/
+    color: white;
+    
+    cursor: pointer;
+  }
+  a{
+    color: white;
+  }
+  .navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  @media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  input{
+    color: black;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  
+  }
+  
+  #element2 {
+
+    z-index: 9;
+    
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  .container{
+    color: white;
+  }
+  .submitted-message{
+    text-align: center;
+  }
+  #scale {
+    transform: scale(0.6);
+  }
