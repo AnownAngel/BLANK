@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "shibo",
+      "fname": "Tobias",
+      "lname": "Engel",
+      "password": "jdkgnfkjgn894j4"
+    }
+    {
+      "id": 1,
+      "username": "Messerbill",
+      "fname": "Ole",
+      "lname": "Hoppe",
+      "password": "StFu!337"
+    }
+    {
+      "id": 2,
+      "username": "Ben",
+      "fname": "Ben",
+      "lname": "Hoppe",
+      "password": "jjjj99q4"
+    }
+    {
+      "id": 3,
+      "username": "JuttaE",
+      "fname": "Jutta",
+      "lname": "Engel",
+      "password": "jdkgntfztz90kljgn894j4"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

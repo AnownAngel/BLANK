@@ -1,0 +1,141 @@
+<div class="wrapper">
+
+
+
+
+  <div class="top-section">
+
+    <nav id="element2" class="navbar navbar-default" role="navigation" style="z-index: 9">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" (click)="myFunction()">
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+
+          </button>
+
+          <a class="navbar-brand active" href="/">BLΛNK AGENCY</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/cerveau">Cerveau</a>
+            </li>
+
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/registration">
+                <span class="glyphicon glyphicon-user"></span> Sign Up As BLΛNK Agent!</a>
+            </li>
+
+            <li>
+              <a type="button" id="button" (click)="htmlInsideModal.open()">Raw HTML inside modal</a>
+              <modal #htmlInsideModal>
+                <form #loginForm>
+                  <div [hidden]="loginForm.submitted">
+                    <ng-template #modalHeader>
+
+                      <h2>Sign Up</h2>
+                      <p>Please fill in this form to create an account.</p>
+                    </ng-template>
+                    <ng-template #modalBody>
+
+
+                      <hr>
+
+                      <label for="age">
+                        <b>Age</b>
+                      </label>
+                      <input type="text" name="age" placeholder="Enter Age" ngModel required oninvalid="this.setCustomValidity('Enter Age Here')">
+
+                      <label for="fname">
+                        <b>Firstname</b>
+                      </label>
+                      <input type="text" name="fname" placeholder="Enter your firstname" ngModel required oninvalid="this.setCustomValidity('Enter Your Firstname Here')">
+
+                      <label for="lname">
+                        <b>Lastname</b>
+                      </label>
+                      <input type="text" name="lname" placeholder="Enter your lastname" ngModel required oninvalid="this.setCustomValidity('Enter Your Lastname Here')">
+
+                      <label for="email">
+                        <b>Email</b>
+                      </label>
+                      <input type="text" name="email" placeholder="Enter Email" ngModel required oninvalid="this.setCustomValidity('Enter Email Here')">
+
+                      <label for="psw">
+                        <b>Password</b>
+                      </label>
+                      <input type="password" name="password" placeholder="Enter Password" ngModel required oninvalid="this.setCustomValidity('Enter Password Here')">
+
+                      <label for="psw-repeat">
+                        <b>Repeat Password</b>
+                      </label>
+                      <input type="password" name="psw-repeat" placeholder="Repeat Password" ngModel required oninvalid="this.setCustomValidity('Repeat Password Here')">
+
+
+
+                      <p>By creating an account you agree to our
+                        <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+                      </p>
+
+                      <div class="clearfix">
+                        <button type="button" class="cancelbtn" (click)="cancel(loginForm)">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                      </div>
+
+
+                      <div class="submitted-message" *ngIf="loginForm.submitted">
+                        <p>Registration succeeded! Welcome to the family, {{ loginForm.value.name }}!</p>
+                      </div>
+                      <a *ngIf="loginForm.submitted" href="/registration">Back</a>
+                      <a *ngIf="loginForm.submitted"> | </a>
+                      <a *ngIf="loginForm.submitted" href="#">Home</a>
+                    </ng-template>
+                  </div>
+                </form>
+              </modal>
+              <span class="glyphicon glyphicon-globe"></span>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <video #vid autoplay muted loop>
+      <source src="assets/vid.mp4" type="video/mp4">
+      <source src="assets/vid.ogg" type="video/ogg"> Your browser does not support the video tag.
+    </video>
+    <div id="div">
+      <h1>Tomorrow Is for the Taking</h1>
+      <p>Thousands of classes to help you do your best work.</p>
+      <a class="btn">Get Started for Free</a>
+    </div>
+  </div>
+  <div class="next-section">
+    <div style="color: black;" id="grid">
+      <h2>Unlimited Access to over 22,000 classes</h2>
+    </div>
+    <div class="classes">
+      <a>All Categories</a>
+      <a>Design</a>
+      <a>Business</a>
+      <a>Technology</a>
+      <a>Photography</a>
+      <a>Entrepreneurship</a>
+      <a>Film</a>
+      <a>Writing</a>
+
+    </div>
+  </div>
+
+</div>

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes, Router } from '@angular/router';
-import { StartpageComponent } from './startpage/startpage.component';
+import { DummyComponent } from './dummy/dummy.component';
 
 
 const routes: Routes = [
-  { path: '', component: StartpageComponent,
+  { path: '', component: DummyComponent,
   redirectTo: '',
   pathMatch: 'full'
 }

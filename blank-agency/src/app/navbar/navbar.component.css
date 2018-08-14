@@ -17,8 +17,11 @@ nav {
   }
   .navbar-default .navbar-nav>li>a {
     color: white !important;
+    line-height: 28px !important;
   }
-  
+  .navbar-brand{
+    line-height: initial;
+  }
   
   .active-link{
     color:greenyellow !important;
@@ -34,6 +37,9 @@ nav {
   a{
     color: white;
   }
+  .navbar {
+    margin-bottom:0;
+  }
   .navbar-default {
     background-color: transparent !important;
     border-color: transparent !important;
@@ -47,6 +53,7 @@ nav {
     }
     .navbar-toggle {
         display: block;
+        width: auto;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -69,6 +76,7 @@ nav {
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+        line-height: 28px !important;
     }
     .collapse.in{
         display:block !important;
@@ -83,7 +91,7 @@ nav {
   }
   input[type=text], input[type=password] {
     width: 100%;
-    padding: 15px;
+    padding: 8px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
@@ -97,12 +105,12 @@ nav {
   
   hr {
     border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+ 
   }
   
   /* Set a style for all buttons */
   button {
-    background-color: #4CAF50;
+
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -157,3 +165,13 @@ nav {
   #scale {
     transform: scale(0.6);
   }
+      
+  .oneLine {
+    width:49% !important; 
+  }
+
+  #fname {
+    margin-right: 7px !important;
+  }
+
+ 

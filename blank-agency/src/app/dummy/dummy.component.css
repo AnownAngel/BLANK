@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 17.5px;
+    font-weight: 75;
+    width: auto;
+  opacity: 0.8;
+  margin-bottom: 44px;
+  font-size: 12px;
+  }
+.wrapper {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+
+    position: absolute;
+  }
+  h1{
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 24px;;
+  }
+  .header {  
+    background: transparent;
+
+    margin: 15px;
+    height: 10%;
+    z-index: 9;
+  }
+
+
+.wrapper video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+    
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .classes {
+    text-align: center;
+  }
+.classes a {
+    color: #797f7f;
+    margin-bottom: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+  div.top-section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    min-height: 35%;
+    overflow: hidden;
+  }
+div.next-section{
+  top: 75%;
+  position: absolute;
+  width: 100%;
+}
+.next-section h2{
+  font-size: 26px;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.next-section a:hover {
+  font-weight: 600;
+  color: #17c5cb; 
+  text-decoration: none;
+}
+.next-section a {
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+
+.right{
+    float: right;
+}
+
+
+  li{
+    font-size: 14px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+  }
+  
+  .brand{
+    font-size: 20px;
+    opacity: 0.9;
+    color: #ff8b00 !important;
+  }
+  
+  
+  
+  .active-link{
+    color:greenyellow !important;
+  } 
+  
+  
+  button {
+    /*background-color: #4CAF50;*/
+    color: white;
+    cursor: pointer;
+  }
+  a{
+    color: white;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+  #a{
+      position: absolute;
+      right: 100px;
+      top: 20px;
+  }
+  #b{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+  li:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+ 
+  
+
+
+  
+  hr {
+    border: 1px solid #f1f1f1;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+
+  .btn{
+    padding: 10px 25px 8px;
+    background: #17c5cb;
+    border-bottom-color: #03a7ad;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  nav {
+
+    font-size: 14px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  li{
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-brand{
+    font-size: 20px;
+    opacity: 0.9;
+    color: #ff8b00 !important;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: white !important;
+    line-height: 28px !important;
+  }
+  .navbar-brand{
+    line-height: initial;
+  }
+  
+  .active-link{
+    color:greenyellow !important;
+  } 
+  
+  
+  button {
+    /*background-color: #4CAF50;*/
+    color: white;
+    
+    cursor: pointer;
+  }
+  a{
+    color: white;
+  }
+  .navbar {
+    margin-bottom:0;
+  }
+  .navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  @media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        width: auto;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 28px !important;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  input{
+    color: black;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+ 
+  }
+  
+  /* Set a style for all buttons */
+  button {
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  
+  }
+  
+  #element2 {
+
+    z-index: 9;
+    
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+  .container{
+    color: white;
+  }
+  .submitted-message{
+    text-align: center;
+  }
+  #scale {
+    transform: scale(0.6);
+  }
+  #div {
+    padding: 1.5em;
+    background-color: transparent;
+  text-align: center;
+    color: white;
+  top: 25%;
+  padding: 10%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    height: 10px;
+    position: absolute;
+  }
+  @media (max-height: 370px) {
+
+      p{
+          margin-bottom: 10px !important;
+          font-size: 8px;
+      }
+      .btn {
+          font-size: 11px;
+      }
+      h1 {
+          font-size: 11px;
+      }
+      .classes a {
+        display: block;
+      }
+    }
+    @media (max-width: 1022px) {
+        .classes a {
+            display: block;
+        }
+        .classes {
+            margin-top: 5px;
+        }
+        p{
+            margin-bottom: 10px !important;
+            font-size: 9px;
+        }
+        .btn {
+            font-size: 11px;
+            left: 50%;
+        }
+        h1 {
+            font-size: 13px;
+        }
+    }
+
+    #button {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+    }
+
+    input {
+      padding: 10px !important;
+      margin: 4px 0 11px 0 !important;
+    }
+
+
+
+select {
+  outline: none;
+}
