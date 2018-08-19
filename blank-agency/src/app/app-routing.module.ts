@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes, Router } from '@angular/router';
-import { DummyComponent } from './dummy/dummy.component';
-import { TableComponent } from './table/table.component';
+import { DummyComponent } from './components/dummy/dummy.component';
+import { TableComponent } from './components/table/table.component';
 
 
 const routes: Routes = [

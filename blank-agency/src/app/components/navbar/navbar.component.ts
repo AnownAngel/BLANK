@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
-import { BackendService } from '../services/backend.service';
-import { Users } from '../navbar/users';
+import { BackendService } from '../../services/backend.service';
+import { Users } from '../../models/users';
 
 @Component({
   selector: 'app-nav',
@@ -41,14 +41,14 @@ import { Users } from '../navbar/users';
         <ul class="nav navbar-nav navbar-right">
           <li>
           <a type="button" id="button" (click)="htmlInsideModal.open()">
-          <span class="glyphicon glyphicon-globe"></span>Sign Up As BLΛNK Agent!
+            <span class="glyphicon glyphicon-globe"></span>Sign Up As BLΛNK Agent!
           </a>
           </li>
 
           <li>
-          <a href="/registration">
-          <span class="glyphicon glyphicon-user"></span>Login
-        </a>
+          <a type="button" id="button" (click)="htmlInsideModal2.open()">
+            <span class="glyphicon glyphicon-user"></span>Login
+          </a>
 
           </li>
           <li>

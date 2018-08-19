@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BackendService } from '../services/backend.service';
-import { Users } from '../models/users';
+import { BackendService } from '../../services/backend.service';
+import { Users } from '../../models/users';
 import { Observable } from 'rxjs/Observable';
 import { Observer } from 'rxjs/Observer';
 
