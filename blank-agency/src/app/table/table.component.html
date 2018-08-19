@@ -1,0 +1,7 @@
+<ul>
+  <input type="search" placeholder="Search&hellip;" (keyup)="onSearchFilter($event)">
+  <li *ngFor="let user of data">
+    <div>{{user.Firstname}}</div>
+    <div>{{ user.Lastname }}</div>
+  </li> 
+</ul>

@@ -27,12 +27,13 @@ import { Users } from '../navbar/users';
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li>
-            <a><select>
-            <option value="volvo">Browse</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-          </select></a>
+          <a routerLink="/users">Users</a>
+            <select>
+            <option>Browse</option>
+            <option>Saab</option>
+            <option>Opel</option>
+            <option>Audi</option>
+          </select>
           </li>
 
 

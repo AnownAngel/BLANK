@@ -9,7 +9,9 @@ import { AppRoutingModule } from './/app-routing.module';
 import { DummyComponent } from './dummy/dummy.component';
 import { ModalModule } from 'angular-custom-modal';
 import { HttpModule } from '@angular/http';
-import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { TableComponent } from './table/table.component'; // <-- NgModel lives here
 
 
 @NgModule({
@@ -18,6 +20,7 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
     StartpageComponent,
     NavbarComponent,
     DummyComponent,
+    TableComponent,
 
   ],
   imports: [
@@ -25,6 +28,7 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
     FormsModule,
     AppRoutingModule,
     ModalModule,
+    HttpClientModule,
     HttpModule
   ],
   providers: [],

@@ -12,7 +12,7 @@ import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angula
 
   <div class="top-section">
 
-  <app-nav></app-nav>
+
     <video #vid autoplay muted loop>
       <source src="assets/vid.mp4" type="video/mp4">
       <source src="assets/vid.ogg" type="video/ogg"> Your browser does not support the video tag.
